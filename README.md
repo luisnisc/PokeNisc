@@ -73,4 +73,3 @@ If you have any questions about the project, please feel free to contact me at [
 # 🙏 Acknowledgments
 
 - Thanks to [PokeAPI](https://pokeapi.co/) for providing the data used in this project.
-- Thanks to all the contributors who helped to improve this project.
