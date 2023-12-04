@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="icon" href="./images/icono.png">
+    <link rel="stylesheet" href="./css/main.css">
+    <title>PokeNisc</title>
+</head>
+<body>
+
+<form id="pokemonForm">
+  <label for="pokemonName">Introduce el nombre del pokemon:</label><br>
+  <input type="text" id="pokemonName" name="pokemonName"><br>
+  <input type="submit" value="Buscar">
+</form>
+<div id="pokedex">
+    <div id="image"></div>
+    <div id="data">
+      <ul id="typesList"></ul>
+      <ul id="weaknessesList"></ul>
+    </div>
+    <div id="evolutionChain"></div>
+  </div>
+  <!-- FILEPATH: /c:/Users/alumno/Documents/api_copilot/index.html -->
+<!-- 
+    This script is responsible for handling the form submission event in the HTML document.
+    It retrieves data about a Pokemon from the PokeAPI and displays it on the page.
+    The script also fetches additional data about the Pokemon's types and weaknesses.
+-->
+<script src="./js/main.js"></script>
+
+</body>
+</html>
